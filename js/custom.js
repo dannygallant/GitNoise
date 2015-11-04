@@ -50,7 +50,7 @@
 		 * Skills
         /* ---------------------------------------------- */    
         //var color = $('#home').css('backgroundColor');
-
+/*
         $('.skills').waypoint(function(){
             $('.chart').each(function(){
             $(this).easyPieChart({
@@ -64,7 +64,7 @@
                 });
             });
         },{offset:'80%'});
-        
+        */
         
         /* ---------------------------------------------- /*
 		 * Quote Rotator
