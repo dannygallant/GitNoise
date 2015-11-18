@@ -187,7 +187,7 @@
 						<h2 class="pfblock-title">Samples</h2>
 						<div class="pfblock-line"></div>
 						<div class="pfblock-subtitle">
-							Here are a few sound samples that give a feel for my work
+							Here are a few sound samples that give a feel for my work. These clips are original, copyrighted works. They are un-mastered and should really be heard with headphones or good speakers.
 						</div>
 					</div>
 
@@ -203,9 +203,10 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/item-1x.jpg" alt="img01"/>
+
                             <figcaption>
                                 <h2><span>Rock</span></h2>
-                                <p>Hard hitting grooves with classic tones</p>
+                                <p>Hard hitting grooves with classic tones</p><audio id="rock" src="sound/RockSample.mp3" preload="auto"></audio><a class="icon fa-volume-up" onclick="document.getElementById('rock').play();"></a>
                             </figcaption>			
                         </figure>
                     </div>
@@ -219,7 +220,7 @@
                             <img src="images/item-2.jpg" alt="img01"/>
                             <figcaption>
                                 <h2><span>Blues</span></h2>
-                                <p>Greasy licks &amp; rhythms with a bluesy tone</p>
+                                <p>Greasy licks &amp; rhythms with a bluesy tone</p><audio id="blues" src="sound/BluesSample.mp3" preload="auto"></audio><a class="icon fa-volume-up" onclick="document.getElementById('blues').play();"></a>
                             </figcaption>			
                         </figure>
                     </div>
@@ -233,58 +234,12 @@
                             <img src="images/item-3x.jpg" alt="img01"/>
                             <figcaption>
                                 <h2><span>Bass</span></h2>
-                                <p>Low end thump to round out your sound, from the basics to complex grooves</p>
+                                <p>Low end thump to round out your sound, from the basics to complex grooves</p><audio id="bass" src="sound/BassSample.mp3" preload="auto"></audio><a class="icon fa-volume-up" onclick="document.getElementById('bass').play();"></a>
                             </figcaption>			
                         </figure>
                     </div>
                     
-                </div>
-                
- <!--
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="images/item-4.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2><span>Slide</span></h2>
-                                <p>Slide guitar/lapsteel for embellishment or main parts</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
--->
-
- <!--               
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="images/item-5.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Crypton <span>Dude</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
-                
-                <div class="col-xs-12 col-sm-4 col-md-4">
-            
-                    <div class="grid wow zoomIn">
-                        <figure class="effect-bubba">
-                            <img src="images/item-6.jpg" alt="img01"/>
-                            <figcaption>
-                                <h2>Don't <span>Poke</span></h2>
-                                <p>Lily likes to play with crayons and pencils</p>
-                            </figcaption>			
-                        </figure>
-                    </div>
-                    
-                </div>
--->                
+                </div>              
                 
             </div>
 
@@ -440,9 +395,6 @@
 
 					<ul class="social-links">
 						<li><a href="https://www.facebook.com/danny.gallant.39" class="wow fadeInUp" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<!-- <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".1s"><i class="fa fa-twitter"></i></a></li> -->
-						<!-- <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".2s"><i class="fa fa-google-plus"></i></a></li> -->
-						<!-- <li><a href="index.html#" class="wow fadeInUp" data-wow-delay=".4s"><i class="fa fa-pinterest"></i></a></li> -->
 						<li><a href="mailto:danny.gallant@att.net?Subject=GitNoise%20Email" class="wow fadeInUp" data-wow-delay=".5s"><i class="fa fa-envelope"></i></a></li>
 					</ul>
 
@@ -467,6 +419,12 @@
     
     <!-- Scroll to top end-->
 
+	<!-- Audio files -->
+
+<!-- 	<audio id="rock" src="sound/RockSample.mp3">
+	<audio id="blues" src="sound/BluesSample.mp3">
+	<audio id="bass" src="sound/BassSample.mp3"> -->
+
 	<!-- Javascript files -->
 
 	<script src="js/jquery-1.11.1.min.js"></script>
@@ -476,7 +434,6 @@
 	<script src="js/jquery.sticky.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/wow.min.js"></script>
-    <!-- // <script src="js/jquery.easypiechart.js"></script> -->
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.cbpQTRotator.js"></script>
 	<script src="js/custom.js"></script>
